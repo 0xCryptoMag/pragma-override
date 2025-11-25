@@ -1,10 +1,22 @@
 {
 	"name": "pragma-override",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Force compiler to compile a .sol file with a compiler other than the declared pragma",
 	"license": "ISC",
 	"author": "0xCryptoMag",
 	"type": "module",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.js"
+		}
+	},
+	"files": [
+		"dist",
+		"src"
+	],
 	"scripts": {
 		"build": "tsc"
 	},
