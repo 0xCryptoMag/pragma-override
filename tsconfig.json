@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "esNext",
+		"module": "nodeNext",
+		"moduleResolution": "nodeNext",
+		"rootDir": "src",
+		"outDir": "dist",
+		"declaration": true,
+		"declarationMap": true,
+		"forceConsistentCasingInFileNames": true,
+		"noEmitOnError": true,
+		"noImplicitOverride": true,
+		"noUncheckedSideEffectImports": true,
+		"skipDefaultLibCheck": true,
+		"sourceMap": true,
+		"incremental": true,
+		"isolatedModules": true
+	}
+}
